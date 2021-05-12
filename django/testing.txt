@@ -1,0 +1,8 @@
+pip install coverage
+
+if dont want to test venv folder
+coverage run --omit='/venv/' manage.py test
+otherwise
+coverage run manage.py test
+
+coverage html
